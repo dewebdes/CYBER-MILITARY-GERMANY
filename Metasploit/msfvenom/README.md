@@ -18,17 +18,17 @@ msfvenom -l [payloads,encoders,nops,platforms,archs,encrypt,formats,all]
 <h4>Raw Payload -> Encoder -> Formatting -> Output</h4>
 </p>	
 <p>
-	-e, --encoder         <encoder>  The encoder to use (use --list encoders to list)<br>
-        	--sec-name        <value>    The new section name to use when generating large Windows binaries. Default: random 4-character alpha string<br>
-        	--smallest                   Generate the smallest possible payload using all available encoders<br>
-        	<a href="https://www.linkedin.com/posts/kave-eyni-08060b59_5-common-encryption-algorithms-and-the-unbreakables-activity-6674037546470780928-GkvA">--encrypt</a>         <value>    The type of encryption or encoding to apply to the shellcode (use --list encrypt to list)<br>
-        	--encrypt-key     <value>    A key to be used for --encrypt<br>
-        	--encrypt-iv      <value>    An initialization vector for --encrypt<br>
+	<ul>-e, --encoder         <encoder>  The encoder to use (use --list encoders to list)<br>
+        	<li>--sec-name        <value>    The new section name to use when generating large Windows binaries. Default: random 4-character alpha string</li>
+        	<li>--smallest                   Generate the smallest possible payload using all available encoders</li>
+        	<li><a href="https://www.linkedin.com/posts/kave-eyni-08060b59_5-common-encryption-algorithms-and-the-unbreakables-activity-6674037546470780928-GkvA">--encrypt</a>         <value>    The type of encryption or encoding to apply to the shellcode (use --list encrypt to list)</li>
+        	<li>--encrypt-key     <value>    A key to be used for --encrypt</li>
+		<li>encrypt-iv      <value>    An initialization vector for --encrypt</li></ul>
 	</p>
 	<p>
-    -a, --arch            <arch>     The architecture to use for --payload and --encoders (use --list archs to list)<br>
-        	--platform        <platform> The platform for --payload (use --list platforms to list)<br>
-		</p>
+    <ul>-a, --arch            <arch>     The architecture to use for --payload and --encoders (use --list archs to list)<br>
+        	<li>--platform        <platform> The platform for --payload (use --list platforms to list)</li>
+	    </ul></p>
 		<p>
     -o, --out             <path>     Save the payload to a file
 			</p>
