@@ -19,7 +19,7 @@ msfvenom -l [payloads,encoders,nops,platforms,archs,encrypt,formats,all]
 </p>	
 <p>
 	-e, --encoder         <encoder>  The encoder to use (use --list encoders to list)<br>
-        --sec-name        <value>    The new section name to use when generating large Windows binaries. Default: random 4-character alpha string<br>
+        &tab;--sec-name        <value>    The new section name to use when generating large Windows binaries. Default: random 4-character alpha string<br>
         --smallest                   Generate the smallest possible payload using all available encoders<br>
         <a href="https://www.linkedin.com/posts/kave-eyni-08060b59_5-common-encryption-algorithms-and-the-unbreakables-activity-6674037546470780928-GkvA">--encrypt</a>         <value>    The type of encryption or encoding to apply to the shellcode (use --list encrypt to list)<br>
         --encrypt-key     <value>    A key to be used for --encrypt<br>
