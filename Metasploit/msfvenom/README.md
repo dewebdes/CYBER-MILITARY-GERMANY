@@ -40,9 +40,10 @@ msfvenom -l [payloads,encoders,nops,platforms,archs,encrypt,formats,all]
         --pad-nops                   Use nopsled size specified by -n <length> as the total payload size, auto-prepending a nopsled of quantity (nops minus payload length)
 		    </p>
     <p>
-	    -s, --space           <length>   The maximum size >-c, --add-code        <path>     Specify an additional win32 shellcode file to include
-    -x, --template        <path>     Specify a custom executable file to use as a template
-    -k, --keep                       Preserve the --template behaviour and inject the payload as a new thread
-    -v, --var-name        <value>    Specify a custom variable name to use for certain output formats
-    -t, --timeout         <second>   The number of seconds to wait when reading the payload from STDIN (default 30, 0 to disable)
-    -h, --help                       Show this message
+	    -s, --space           <length>   The maximum size </p>
+	    <p>-c, --add-code        <path>     Specify an additional win32 shellcode file to include</p>
+    <p>-x, --template        <path>     Specify a custom executable file to use as a template</p>
+    <p>-k, --keep                       Preserve the --template behaviour and inject the payload as a new thread</p>
+    <p>-v, --var-name        <value>    Specify a custom variable name to use for certain output formats</p>
+    <p>-t, --timeout         <second>   The number of seconds to wait when reading the payload from STDIN (default 30, 0 to disable)</p>
+    <p>-h, --help                       Show this message</p>
