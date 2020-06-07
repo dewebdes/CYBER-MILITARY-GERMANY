@@ -22,3 +22,7 @@ There is some software ways But the owner of phone must Activate them before pho
 <img src="https://github.com/dewebdes/CYBER-MILITARY-GERMANY/blob/master/smartphone/lock/hack/mob007.PNG" />
 <h4>009. Finaly BIOS come</h4>
 <img src="https://github.com/dewebdes/CYBER-MILITARY-GERMANY/blob/master/smartphone/lock/hack/mob008.PNG" />
+<hr>
+<p>
+<h1><a href="https://www.linkedin.com/posts/kave-eyni-08060b59_blackhat-lessons-germany-activity-6675124886970617856-PdJN" title="Linkedin">Read More...</a></h1>
+</p>
